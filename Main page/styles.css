@@ -1,6 +1,5 @@
 *{
     background-image: url('');
-    background-color: grey;
     background-blend-mode: multiply;
     background-size: 100% 600px;
     font-family: "Kaushan script";
@@ -32,7 +31,7 @@ li a:hover:not(.active) {
 }
   
 .active {
-    background-color: #18122B;
+    background-color: white;
 }
 h1{
     color:white;

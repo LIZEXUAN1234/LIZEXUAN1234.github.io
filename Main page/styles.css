@@ -1,54 +1,41 @@
-div{
-    font-family: "Kaushan Script";
-    border: cyan;
-    
+*{
+    background-image: url('');
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: 100% 600px;
+    font-family: "Kaushan script";
 }
 
-body {
+ul {
+    list-style-type: none;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-  
-.home {
+    padding: 0;
     overflow: hidden;
-    background-color: #053B50;
+    background-color: #443C68;
+    border-radius: 10px;
 }
-
   
-.about_us {
+li {
     float: left;
-    color: #64CCC5;
+}
+  
+li a {
+    display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
 }
   
-.about_us:hover {
-    background-color:#176B87;
-}
-.start_exploring {
-    float: left;
-    color: #64CCC5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+li a:hover:not(.active) {
+    background-color: #393053;
 }
   
-.start_exploring:hover {
-    background-color:#176B87;
+.active {
+    background-color: #18122B;
 }
-
-.settings {
-    float: left;
-    color: #64CCC5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-.settings:hover {
-    background-color:#176B87;
+h1{
+    color:white;
+    text-align:center;
+     ;
 }

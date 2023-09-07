@@ -1,5 +1,5 @@
 div{
-    font-family: "https://fonts.googleapis.com/css?family=Sofia";
+    font-family: "Kaushan Script";
     border: cyan;
     
 }
@@ -9,13 +9,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
   
-.topnav {
+.home {
     overflow: hidden;
     background-color: #053B50;
 }
 
   
-.topnav a {
+.about_us {
     float: left;
     color: #64CCC5;
     text-align: center;
@@ -24,12 +24,31 @@ body {
     font-size: 17px;
 }
   
-  .topnav a:hover {
+.about_us:hover {
     background-color:#176B87;
-    color: black;
+}
+.start_exploring {
+    float: left;
+    color: #64CCC5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
   
-  .topnav a.active {
-    background-color: #053B50;
-    color: white;
+.start_exploring:hover {
+    background-color:#176B87;
+}
+
+.settings {
+    float: left;
+    color: #64CCC5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.settings:hover {
+    background-color:#176B87;
 }

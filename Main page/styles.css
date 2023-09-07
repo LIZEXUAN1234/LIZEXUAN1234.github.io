@@ -1,3 +1,35 @@
-*{
+div{
+    font-family: "https://fonts.googleapis.com/css?family=Sofia";
+    border: cyan;
     
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #053B50;
+}
+
+  
+.topnav a {
+    float: left;
+    color: #64CCC5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  .topnav a:hover {
+    background-color:#176B87;
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: #053B50;
+    color: white;
 }

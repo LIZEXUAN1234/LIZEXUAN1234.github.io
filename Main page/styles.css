@@ -1,3 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+Explanation:
+
+    display: grid; makes the body element a grid container.
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); creates columns that automatically fill the available space, with a minimum width of 250px.
+    gap: 20px; adds a 20px gap between the grid items (your university divs).
+
+With these CSS changes, your university divs should now be displayed side-by-side in a grid layout.
+
+
 *{
     background-image: url('');
     background-color: grey;
